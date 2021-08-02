@@ -1,0 +1,32 @@
+
+
+.writeTodo{
+    height: 40px;
+    width: 220px;
+    border: 1px solid #ccbebe;
+    border-radius: 6px;
+    outline: none;
+    margin-right: 10px;
+}
+
+button.addTodoBtn {
+    height: 40px;
+    width: 80px;
+    background-color: #b8eae3;
+    outline: none;
+    border: 1px solid #e4e1e1;
+    border-radius: 6px;
+    color: #222222;
+    cursor: pointer;
+}
+
+button.addTodoBtn:hover {
+    background-color: #ccbebe;
+}
+
+
+@media(min-width: 400px) {
+    .writeTodo{
+        width: 300px;
+    }
+}

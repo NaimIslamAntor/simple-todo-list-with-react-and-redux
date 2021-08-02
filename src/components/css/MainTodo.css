@@ -1,0 +1,11 @@
+
+
+.todoMain{
+  padding-top: 60px;
+  display: grid;
+  place-items: center;
+}
+.todoHeading{
+    text-align: center;
+    color: #222222;
+}
